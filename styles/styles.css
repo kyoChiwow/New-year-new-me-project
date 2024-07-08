@@ -235,3 +235,256 @@
   margin-left: 70px;
   margin-right: 118px;
 }
+
+/* Holiday Sale Styles */
+
+
+#holiday-sale-section{
+  max-width: 1320px;
+  height: 987px;
+  margin: 0 auto;
+  margin-top: 120px;
+  background-image: url(../images/Rectangle\ 2.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.holiday-sale-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.holiday-sale-content h4{
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.holiday-sale-content h1{
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+
+.holiday-sale-content span{
+  color: #ff0000;
+}
+
+.holiday-sale-content p{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.holiday-sale-bottom-image{
+  width: 674px;
+  height: 577px;
+  position: absolute;
+  bottom: 85px;
+}
+
+.holiday-sale-right-image{
+  height: 305px;
+  width: 305px;
+  position: absolute;
+  left: 974px;
+  top: 401px;
+}
+
+/* Awesome Portfolio Styles */
+
+#awesome-portfolio{
+  max-width: 1320px;
+  height: 1163px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.awesome-portfolio-content h5{
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+
+.awesome-portfolio-content h3{
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 22px;
+}
+
+.awesome-portfolio-content p{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 48px;
+}
+
+.awesome-porfolio-images{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* Newsletter section style */
+
+#newsletter-section{
+  max-width: 1320px;
+  height: 616px;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter-content{
+  width: 896px;
+  height: 336px;
+  margin-bottom: 48px;
+}
+.newsletter-content h2{
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+
+.newsletter-content p{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 48px;
+}
+
+.btn-email-container{
+  width: 648px;
+  height: 72px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.email-box{
+  height: 72px;
+  width: 435px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: rgba(7, 2, 17, 0.3);
+  padding: 25px 0px 25px 30px;
+  border: none;
+  outline: none;
+  border-radius: 50px 0 0 50px;
+}
+
+.btn-email{
+  height: 72px;
+  width: 216px;
+  border-radius: 0 50px 50px 0;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #ff0000;
+  border: none;
+  outline: none;
+}
+
+/* Footer Section Style here */
+
+#footer-section{
+  max-width: 1920px;
+  height: 600px;
+  background-color: rgba(7, 2, 17, 1);
+}
+
+#Top-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.top-content{
+  width: 1320px;
+  height: 80px;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-content p{
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.left-top-content .address-para{
+  margin-bottom: 8px;
+}
+
+.right-top-content .number-para{
+  margin-bottom: 8px;
+}
+
+.footer-hr-line-1{
+  width: 1320px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+#middle-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.social-media-icons{
+  width: 328px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-content p{
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+#bottom-section{
+  width: 1320px;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.bottom-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
